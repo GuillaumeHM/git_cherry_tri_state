@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-__version__ = "0.1"
+""" git_cherry_tri_state improves git's cherry command with a third state
+
+This script better helps integrators to identify commits that are already backported to maintenance branches.
+See --help content.
+"""
+__author__ = "Guillaume Hourdier"
+__copyright__ = "Copyright 2017"
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Guillaume Hourdier"
+__status__ = "Production"
 
 import os
 import argparse

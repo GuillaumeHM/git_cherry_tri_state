@@ -9,10 +9,10 @@ void prog_print(char* str)
 // Main function
 int main()
 {
-    prog_print("New functionality 1!");
+    prog_print("New functionality 1!\n");
     prog_print("Hello, World!\n");
 
 
-    prog_print("New functionality  2!");
+    prog_print("New functionality  2!\n");
     return 0;
 }

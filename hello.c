@@ -9,7 +9,7 @@ void prog_print(char* str)
 // Main function
 int main()
 {
-    prog_print("New functipnality 1!");
+    prog_print("New functionality 1!");
     prog_print("Hello, World!\n");
 
 

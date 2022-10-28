@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main() {
-   // printf() displays the string inside quotation
-   printf("Helmo, World!\n");
-   return 0;
+void prog_print(char* str)
+{
+    printf(str);
+}
+
+int main()
+{
+    prog_print("Helmo, World!\n");
+
+    return 0;
 }
